@@ -28,4 +28,5 @@ spec:
     spec:
       containers:
       - name: sleeper
-        image: sleeper
+#        image: sleeper
+        image: sleeper:1.0
