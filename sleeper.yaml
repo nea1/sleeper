@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: sleeper
   labels:
-      app: sleeper
+    app: sleeper
 spec:
   ports:
   - port: 80
@@ -17,10 +17,12 @@ metadata:
   name: sleeper
   labels:
     app: sleeper
+  annotations:
+    flux.weave.works/automated: 'true'
 spec:
   selector:
-      matchLabels:
-        app: sleeper
+    matchLabels:
+      app: sleeper
   template:
     metadata:
       labels:
