@@ -1,0 +1,1 @@
+{"jobID":"c3ee6957-f88c-e6e5-d54a-863937794ed7","spec":{"type":"policy","cause":{"Message":"","User":"nea1 \u003cneallidster@gmail.com\u003e"},"spec":{"default:deployment/sleeper":{"add":{"automated":"true"},"remove":{}}}},"result":null}
