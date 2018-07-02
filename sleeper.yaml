@@ -29,5 +29,4 @@ spec:
     spec:
       containers:
       - name: sleeper
-#        image: sleeper
-        image: n3a1/sleeper:1.3
+        image: sleeper
