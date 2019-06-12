@@ -1,8 +1,8 @@
-apiVersion: skaffold/v1alpha2
+apiVersion: skaffold/v1beta11
 kind: Config
 build:
   artifacts:
-  - imageName: sleeper
+    - image: n3a1/sleeper
 deploy:
   kubectl:
     manifests:
